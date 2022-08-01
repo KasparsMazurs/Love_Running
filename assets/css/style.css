@@ -14,7 +14,7 @@ body {
 
 /* heading and logo */
 h1, h2 {
-    font-family: oswald, sans-serif;
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
@@ -22,12 +22,12 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
-    margin-left: 30px; 
+    margin-left: 30px;
 }
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px; 
+    letter-spacing: 4px;
 }
 
 #menu, #logo {
@@ -81,10 +81,10 @@ h1, h2 {
 /* creating the level of zoom for hero image */
 
 @keyframes hero-zoom {
-    from {
+    from{
         transform: scale(1);
     }
-    to {
+    to{
         transform: scale(1.1);
     }
 }
@@ -274,18 +274,48 @@ footer {
         padding: 0;
     }
 
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
     hr {
         display: none;
     }
 }
 
 /* For medium screen size from 950px */
-@media screen and (max-width 950px) {
+@media screen and (max-width: 950px) {
     #menu {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
     }
 }
