@@ -246,6 +246,16 @@ footer {
     width: 100%;
 }
 
+/* Form section */
+
+.form-section {
+    clear: left;
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
 /* Media queries */
 
 /* for large scree sizes */
@@ -320,10 +330,11 @@ footer {
     }
 }
 
-/* For smal screen size from 8000px */
+/* For smal screen size from 800px */
 
 @media screen and (max-width: 800px) {
     #photos {
         column-count: 2;
     }
 }
+
